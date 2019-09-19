@@ -1,3 +1,6 @@
+# A simple dictionary app that imports a basic datafile (data.json) and based on user input provides the definition
+# Allows for typos, upper and lowercase letters and uses the get_close_matches function from difflib
+
 import json
 from difflib import get_close_matches 
 
